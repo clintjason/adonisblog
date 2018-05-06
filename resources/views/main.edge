@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Adonis 4.0 Blog</title>
+  {{ css('css/bootstrap.min.css') }}
+</head>
+<body>
+	@include('includes/navbar')
+  <div class="container">
+  	@!section('content')
+  </div>
+
+  {{ script('js/jquery-2.1.1.min.js') }}
+  {{ script('js/bootstrap.min.js') }}
+</body>
+</html>
